@@ -1,13 +1,292 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.div1 {
+  display: flex;
+  gap: 10px;
+}
+.resumi-content {
+  font-size: "30px";
+  color: #3a3a43;
+  font-weight: 600;
+  margin-right: 80px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.div2 {
+  display: flex;
+  gap: 10px;
+  font-weight: 1000;
+}
+.search-content {
+  display: flex;
+  gap: 10px;
+}
+.search-typography {
+  margin-bottom: 10px;
+  font-weight: 550;
+}
+
+.star-content {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  color: #595964;
+}
+.star {
+  color: yellow;
+}
+.past-content {
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+}
+.Header-main {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  height: 120px;
+  background-color: #008b5d;
+  border-radius: 2px;
+}
+.icon-bag {
+  height: 30px;
+  width: 30px;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bag {
+  color: #0866f5;
+}
+.bag-circle {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.bag-and-premium {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  height: 120px;
+  background-color: #008b5d;
+  border-radius: 2px;
+}
+.premium-content {
+  color: white;
+  margin-left: 15px;
+}
+.premiun-desc {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 22px;
+}
+.Pemiun-Account-main {
+  color: #ffffff;
+  line-height: 30px;
+}
+.Premium-content {
+  font-size: 24px !important;
+  font-weight: 500 !important;
+}
+
+.form-content {
+  font-weight: 800;
+  display: flex;
+  /* gap: 16px; */
+  flex-direction: column;
+}
+.form-container {
+  display: flex;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.first-and-last {
+  display: flex;
+  height: 56px;
+  gap: 24px;
+}
+.firstname {
+  width: 308px;
+  padding: 8px, 0px, 0px, 0px;
+  gap: 4px;
+}
+.lastname {
+  width: 308px;
+  padding: 8px, 12px, 8px, 12px;
+  gap: 4px;
+}
+.Address {
+  width: 640px;
+  height: 48px;
+  padding: 8px, 12px, 8px, 12px;
+}
+
+.personal-content {
+  font-size: 24px;
+  color: #14141f;
+  font-weight: 700 !important;
+}
+.my-brands-content {
+  font-size: 30px;
+  font-weight: 1500;
+  color: black;
+}
+.Board-content {
+  font-size: 30px;
+  color: black;
+  display: flex;
+  gap: 15px;
+}
+.lock-image {
+  color: #c0b52ce6;
+}
+.use-content {
+  display: flex;
+  width: 548px;
+  height: 22px;
+  font-size: 15px;
+}
+
+.save-btn {
+  width: 130px;
+  margin-top: 15px;
+  color: #1688fe;
+  width: 170px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+}
+.resumesdone {
+  color: #1688fe;
+}
+.checkbox-and-desc {
+  display: flex;
+  font-size: 13px;
+  gap: 5px;
+}
+.delete-content {
+  font-size: 40px;
+}
+.delete-account {
+  font-size: 17px;
+}
+.yes-content {
+  color: #f25773;
+}
+.delete-content {
+  height: 100px;
+  width: 800px;
+  /* margin-left: 10px; */
+  border: 1px solid #e3e3e4;
+  padding: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  /* margin-bottom: 10px; */
+}
+.get-in-touch-content {
+  padding: 10px 0 0 10px;
+  gap: 16px;
+  height: 80px;
+  width: 800px;
+}
+.get-in-touch {
+  color: #1688fe;
+}
+.get-in-touch {
+  display: flex;
+}
+.hr {
+  width: 100%;
+  height: 1px;
+  background: #e3e3e4;
+  margin-top: 8px;
+}
+
+.footer {
+  display: flex;
+  gap: 32px;
+  color: #595964;
+
+  font-size: 14px;
+}
+.grey {
+  color: #595964;
+}
+.image {
+  display: flex;
+  justify-content: space-between;
+}
+.ellipse-image {
+  height: 144px;
+  width: 144px;
+}
+.my-template {
+  font-weight: 1000;
+}
+
+.flex {
+  display: flex;
+}
+.text-color {
+  color: #4c4c55;
+}
+
+.Adress {
+  width: 656px !important;
+}
+
+.form-and-image {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+.use-this-email {
+  font-size: 15px;
+}
+.delete-desc1 {
+  font-size: 15px;
+  color: #4c4c55;
+}
+/* .delete-desc2 {
+  font-size: 15px;
+  color: #4c4c55;
+  font-family: 800;
+  color: #f25773;
+  border: none;
+} */
+.checkbox-delete-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* ====================================================================================== */
+
+@media (max-width: 480px) {
+  .Header-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-and-image {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .first-and-last {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column-reverse;
+  }
 }
